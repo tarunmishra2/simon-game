@@ -1,0 +1,111 @@
+body {
+    background-color: #f6f6f6;
+    font-size: 1rem;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+}
+
+.background-tile {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 7rem;
+    border-radius: 20px;
+    position: relative;
+}
+
+.tile {
+    width: 43%;
+    height: 38%;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+
+.red {
+    top: 0;
+    left: 0;
+    border: 10px solid #f22613;
+    border-radius: 200px 0 0 0;
+}
+
+.blue {
+    top: 0;
+    right: 0;
+    border: 10px solid #2980b9;
+    border-radius: 0 200px 0 0;
+}
+
+.yellow {
+    bottom: 0;
+    right: 0;
+    border: 10px solid #f1c40f;
+    border-radius: 0 0 200px 0;
+}
+
+.green {
+    bottom: 0;
+    left: 0;
+    border: 10px solid #25ce33;
+    border-radius: 0 0 0 200px;
+}
+
+
+#title {
+    text-align: center;
+}
+
+.settings {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    display: inline-block;
+    text-align: center;
+}
+
+.center {
+    display: inline-block;
+    margin: 19px 5px;
+    line-height: 20px;
+}
+
+.counter {
+    border: 2px solid #2c3e50;
+    border-radius: 8px;
+    background-color: #2c3e50;
+}
+
+#count {
+    color: #f6f6f6;
+}
+
+.labels {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.buttons {
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #2c3e50;
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background: #0a001a;
+}
+
+.hide-message {
+    display: none;
+}
+
+.show-message {
+    font-size: 1.5em;
+}
